@@ -5,11 +5,12 @@ opsman-configuration:
     custom_memory: 16
     gcp_service_account: ((opsman-service-account-key))
     project: pasfun-internal-dbrenneman-piv
-    public_ip: 35.188.147.194
+    public_ip: 104.198.232.99
     region: us-central1
     ssh_public_key: |
-      ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCrtC3nMCDM4J0Ayi75/w2h5HphPyvqmsh6XxHiq/7oabOeBhCvMkfLEk6iuv6QwMB2uBnVHzIBRFrY92BmvVrmmEQeCGCyo4jr2NQ3LUnT6vTcSsmJ9lgJ3hMXDR2K8Ev0ntsWPWCCFJh070pPEFh1UWu1lx1uPKVT10viyLLBlJg/WxlMEjwv9Ti01fm8pvC4meBkL4WJDJhQzH63317hteORi9hJLhMFijoC8a/HFgjMlTdThVzCuk5d9Jwwkre/AnhbzWMXTh3ExglPZnwf1+r52EEwXgpaSU5MgGtmyvnk9awvTgELLMC5bjxpDCqEtZAxBs7hmDZ+Yw2+1B0pYNcPWgRu7rPNtiHuLLRI1Ne1Wc9lK0fO5hwSNRjZOd94T7DtatuHFWa3iCTaGtemw5hsPCt6CUDUHPIFFnycPCtHG5pz7afkHl50eS/mXgakRfOjn6oJDQosaKW6aYrJihhbDrCR9sBxEscDK1BFHCEFncn6zKgKLNSKAft456Juj9LZNbPPK+8yJXvKPn9SYgt+N88fj96fMczzNZERR5plWvrxHO2q8UEJVRYd2MVhlINUbEmKaM6QAjAwmcjda1IOXfk9wyubJVNBjmjOBGujWlvJQM3/QTfjIEYQWOc6VfPQLitrxEDShc9D3QfHwLMjcJGwBmJtKyb6Umncuw==
-    tags: danab-ops-manager
-    vm_name: danab-ops-manager-vm
-    vpc_subnet: danab-management-subnet
+      ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDfYJyoocs6u8UmdzJp5tOWXN9P7IQL/4D57znHLHHVQZ3QtO1TEPiGSPgYQhJQNlS+FtQDhdCpyWTV1PcSN/XQ5kgUeCz6Itt2pKDXwBk/uqNAp2+qPgqR0r+fMAFBygN6yySlNovsTEB81HB7tXoatxuZrvZnoRgoRq3QWXx5Om3KHVfLafibpNrR3eeqoaXs55sfB1HSVai4dNgC5GYqLkXV/+TNryJrJiYUPnmWz3ZZd7OmfAeouq3mxIoTmwifYbHqRs5GtDLskgFZJt/Hxexx5luXBU6Y6uqmrJNEo51qBHNbvic9irkosCH5FfDYOHMwkP50HKj2uwlWupgHslRnAjRL7/xpsl1aeeAs0lDoZmgKCY9j2P0HM2ErfvxA6KZ1SjgII2SR5A2HRNFAya7R6adL3DyNP1e5jn4QvgWeQtKEoqofZff2r/hem6Q9zrsMakIgJyVcZ0KQH1JrwMJv16prIHaKoz3BLHUgy3Hy2IZzJClGi0Cks/AiaNfcvxMVJkGidqmwIo3WCv66IzS9OCx0gXavZxokaNJB1FxD6C7siTi2n/SN8HrJ1H4nXCNmHfxXLaigCrhlFrQOW0OXfNBigP0yU+H75mGkRQB3TY4eo7E6fO1+8E6axJ9x+Ad4riqp42AJOcHsqiXVf3lQWnVdhZTAhMetnin6mQ==
+    tags: sandbox-ops-manager
+    vm_name: sandbox-ops-manager-vm
+    vpc_subnet: sandbox-management-subnet
     zone: us-central1-a
+
