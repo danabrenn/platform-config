@@ -1,7 +1,5 @@
 opsman-configuration:
   gcp:
-    gcs-project-id: "pasfun-internal-dbrenneman-piv"
-    gcs-service-account-json: ((json_key))
     boot_disk_size: 100
     custom_cpu: 4
     custom_memory: 16
