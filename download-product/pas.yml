@@ -7,4 +7,4 @@ pivnet-product-slug: elastic-runtime
 product-version-regex: ^2\.8\..*$
 blobstore-bucket: ((bucket))
 # stemcell-iaas: google
-blobstore-stemcell-path: gs://pasfun-internal-dbrenneman-piv-danab-artifacts/pas-stemcell/light-bosh-stemcell-621.61-google-kvm-ubuntu-xenial-go_agent.tgz # default - root path of bucket
+blobstore-stemcell-path: gs://pasfun-internal-dbrenneman-piv-danab-artifacts/ # default - root path of bucket
