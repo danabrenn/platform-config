@@ -1,0 +1,15 @@
+opsman-configuration:
+  gcp:
+    boot_disk_size: 100
+    custom_cpu: 4
+    custom_memory: 16
+    gcp_service_account: ((opsman-service-account-key))
+    project: pasfun-internal-dbrenneman-piv
+    public_ip: 35.188.147.194
+    region: us-central1
+    ssh_public_key: |
+      ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCrtC3nMCDM4J0Ayi75/w2h5HphPyvqmsh6XxHiq/7oabOeBhCvMkfLEk6iuv6QwMB2uBnVHzIBRFrY92BmvVrmmEQeCGCyo4jr2NQ3LUnT6vTcSsmJ9lgJ3hMXDR2K8Ev0ntsWPWCCFJh070pPEFh1UWu1lx1uPKVT10viyLLBlJg/WxlMEjwv9Ti01fm8pvC4meBkL4WJDJhQzH63317hteORi9hJLhMFijoC8a/HFgjMlTdThVzCuk5d9Jwwkre/AnhbzWMXTh3ExglPZnwf1+r52EEwXgpaSU5MgGtmyvnk9awvTgELLMC5bjxpDCqEtZAxBs7hmDZ+Yw2+1B0pYNcPWgRu7rPNtiHuLLRI1Ne1Wc9lK0fO5hwSNRjZOd94T7DtatuHFWa3iCTaGtemw5hsPCt6CUDUHPIFFnycPCtHG5pz7afkHl50eS/mXgakRfOjn6oJDQosaKW6aYrJihhbDrCR9sBxEscDK1BFHCEFncn6zKgKLNSKAft456Juj9LZNbPPK+8yJXvKPn9SYgt+N88fj96fMczzNZERR5plWvrxHO2q8UEJVRYd2MVhlINUbEmKaM6QAjAwmcjda1IOXfk9wyubJVNBjmjOBGujWlvJQM3/QTfjIEYQWOc6VfPQLitrxEDShc9D3QfHwLMjcJGwBmJtKyb6Umncuw==
+    tags: danab-ops-manager
+    vm_name: danab-ops-manager-vm
+    vpc_subnet: danab-management-subnet
+    zone: us-central1-a
